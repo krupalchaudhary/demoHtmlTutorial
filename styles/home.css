@@ -1,0 +1,51 @@
+/* h1 {
+    color: blueviolet;
+} */
+
+.h1tags {
+    font-size: 3rem;
+    color: red;
+}
+
+#h1head {
+    font-size: 4rem;
+    color: blue;
+    background-color: aqua;
+    font-weight: 800;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#hero-desc {
+    font-size: 4rem;
+}
+
+.primary-btn {
+    padding: 2rem 3rem;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 20px -5px rgba(23, 23, 50, 0.15);
+    transition: all 0.5s linear;
+}
+
+.primary-btn:hover {
+    background-color: aliceblue;
+    color: black;
+
+}
